@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  --branco: #f3e9dcff;
+--caramel: #c08552ff;
+--café: #5e3023ff;
+--moreno: #895737ff;
+--bege: #dab49dff;
+--fonte-titulo:"Edu AU VIC WA NT Guides", cursive;
+--fonte-texto: "Qwitcher Grypen", cursive;
+
+}
+body{
+  background-color: var(--caramel);
+  font-family: var(--fonte-texto);
+
+}
+ .cabecalho{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--bege);
+ }
