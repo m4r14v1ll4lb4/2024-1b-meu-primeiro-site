@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Qwitcher+Grypen:wght@400;700&display=swap');
 
 *{
@@ -26,3 +27,22 @@ body{
   justify-content: space-between;
   background-color: var(--bege);
  }
+ 
+.cabecalho-logo{
+  width:18%;
+  border-radius : 100%;
+  padding: 1em;
+}
+
+.cabecalho-link{
+  text-decoration: none;
+  color:var(--branco);
+  font-size: 5em;
+  margin-right: 1em;
+}
+
+.cabecalho-link:hover{
+  color: var(--café);
+  font-size: 1.8em;
+  transition: 0.3s;
+}
