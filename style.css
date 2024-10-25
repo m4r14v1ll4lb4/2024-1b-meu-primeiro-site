@@ -43,6 +43,42 @@ body{
 
 .cabecalho-link:hover{
   color: var(--café);
-  font-size: 1.8em;
+  font-size: 2.8em;
   transition: 0.3s;
+}
+
+.principal-capa{
+  background-color: var(--caramel);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5em;
+}
+
+.principal-capa_titulo{
+  font-size: 5em;
+  font-family: var(--fonte-titulo);
+}
+.principal-capa_texto{
+  font-size: 5em;
+}
+.principla-capa_imagem{
+  width: 30%;
+  border-radius: 10px;
+}
+
+.principal-capa_combotao{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.principal-capa_botao{
+  background-color: var(--bege);
+  text-decoration: none;
+  padding: 2em;
+  color: var(--café);
+  margin-top: 2em;
+  border-radius: 16px;
+  font-size: 1.2em;
 }
