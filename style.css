@@ -82,3 +82,8 @@ body{
   border-radius: 16px;
   font-size: 1.2em;
 }
+.botao_secundario{
+  background-color: transparent;
+  border: 2px solid var(--branco);
+  color: var(--branco);
+}
